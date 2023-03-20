@@ -107,6 +107,15 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "Neue Kachel" },
+                            "icon": "fa-file-alt",
+                            "color": "purple",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
                     ]
                 },
                 {
@@ -119,7 +128,7 @@ export class GuiModel {
                             "type": "newButton",
                             "name": { default: "Neues ToDo"},
                             "icon": "fa-user",
-                            "color": "green",
+                            "color": "red",
                             "width": 2,
                             "form" : {
                                 "form" : "ToDoForm"
